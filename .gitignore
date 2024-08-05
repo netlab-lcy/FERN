@@ -14,7 +14,6 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
 lib64/
 parts/
 sdist/
@@ -158,3 +157,25 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+# FERN 
+/data_generation
+/data_analysis
+
+fault-tolerance-network/network_upgrade/results/*
+fault-tolerance-network/network_upgrade/topo_info/topology/*
+fault-tolerance-network/network_upgrade/topo_info/traffic/*
+fault-tolerance-network/network_upgrade/failure_set/*
+
+fault-tolerance-network/R3/results/*
+fault-tolerance-network/R3/topo_info/topology/*
+fault-tolerance-network/R3/topo_info/traffic/*
+fault-tolerance-network/R3/failure_set/*
+
+NN-model/data/dataset/*
+NN-model/data/topology/*
+NN-model/data/traffic/*
+NN-model/failure_detect/*
+NN-model/failure_set/*
+NN-model/log/*
+NN-model/models/*
